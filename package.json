@@ -1,14 +1,14 @@
 {
-  "name": "backend-ecommerce",
+  "name": "node-express-es2015",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple project with es2015 config",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "babel-node src/app.js --presets es2015"
   },
   "keywords": [],
-  "author": "",
+  "author": "Mauricio Fraga Jr",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.3",
