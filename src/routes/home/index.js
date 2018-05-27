@@ -7,10 +7,4 @@ homeRoute.get('/', (req, res) => {
     })
 });
 
-homeRoute.get('/home', (req, res) => {
-    res.status(200).send({
-        result: 'OK'
-    })
-});
-
 export default homeRoute;
